@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Comp 20
+    Trevor Masse
+    10/17/2020
+    Homework 6
+    Amicable Numbers -->
+
+<html>
+<head>
+    <title>Comp20 6 Amicable Numbers</title>
+    <style>
+        #Results {
+            width: 100%;
+            background-color: #f7bfbf;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Amicable Numbers</h1>
+        <h2>Enter Two Numbers</h2>
+        <form>
+        <h3>Number One: </h3>
+        <input type="text" id="num1">
+        <h3>Number Two: </h3>
+        <input type="text" id="num2"></br></br>
+        <input type="button" onclick="numFunction()" value="Compute"></br></br>
+        </form>
+        </br></br>
+        <div id="Results">
+            <p>Results</p>
+            <p>Factors here do not include the number itself</p>
+            <div id="Numbers"></div>
+            <div id="Factor"></div>
+            <div id="ArrNums"></div>
+            <div id="SumArr"></div>
+            <div id="Amicable"></div>
+        </div>
+        <script language="JavaScript">
+
+            function numFunction()
+            {
+                var num_1, num_2, sum_1, sum_2;
+                num_1 = parseInt(document.getElementById("num1").value);
+                num_2 = parseInt(document.getElementById("num2").value);
+                let f1 = getFactors(num_1);
+                sum_1 = addArray(f1);
+                let f2 = getFactors(num_2);
+                sum_2 = addArray(f2);
+                document.getElementById("Numbers").innerHTML =
+                    "<p> Number 1: " + num_1 + "</br>" + "Number 2: " + num_2 + "</br>" + "</p>";
+                document.getElementById("ArrNums").innerHTML = "<p> Number 1 Factors: " + showArray2(f1) + "</br>" + "Number 2 Factors: " + showArray2(f2) + "</p>";
+                document.getElementById("SumArr").innerHTML = "<p> Sum of Number 1 Factors: " + sum_1 + "</br>" + "Sum of Number 2 Factors: " + sum_2 + "</p>";
+                document.getElementById("Amicable").innerHTML = "<p>" + equals(num_1, num_2, sum_1, sum_2) + "</p>";
+
+                //Testing Code
+                //
+                //isFactor
+                //document.getElementById("Factor").innerHTML = "<p> Number 2 is a Factor of Number 1: " + isFactor(num_1, num_2) + "</p>";
+                //
+                //showArray
+                //var my_arr = [1, 2, 3, 4, 5];
+                //showArray(my_arr);
+                //
+                //addArray
+                //var my_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                //var summed = addArray(my_arr);
+                //document.getElementById("SumArr").innerHTML = "<p> The sum of the array numbers is: " + summed + "</p>";
+                //
+                //getFactors
+                //let factor_test = getFactors(12);
+                //let factor_test = getFactors(60);
+                //showArray(factor_test);
+            }
+
+            function isFactor(num, pfact)
+            {
+                if (num % pfact == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            function showArray(arr)
+            {
+                var output = "";
+                for (var i = 0; i < arr.length; i++) {
+                    output += arr[i] + " ";
+                }
+                document.getElementById("ArrNums").innerHTML = "<p> Array Elements: " + output + "</p>";
+            }
+
+            function showArray2(arr)
+            {
+                var output = "";
+                for (var i = 0; i < arr.length; i++) {
+                    output += arr[i] + " ";
+                }
+                return output;
+            }
+
+            function addArray(arr)
+            {
+                var output = 0;
+                for (var i = 0; i < arr.length; i++) {
+                    output += parseInt(arr[i]);
+                }
+                return output;
+            }
+
+            function getFactors(num)
+            {
+                let factors = [];
+                for (var i = 0; i < num; i++) {
+                    if (isFactor(num, i)) {
+                        factors.push(i);
+                    }
+                }
+                return factors;
+            }
+
+            function equals(n1, n2, s1, s2)
+            {
+                if (n1 == s2 && n2 == s1)
+                {
+                    return "The numbers are Amicable.";
+                }
+                else
+                {
+                    return "The numbers are not Amicable.";
+                }
+            }
+        </script>
+
+    </main>
+</body>
+</html>

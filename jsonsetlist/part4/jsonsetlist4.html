@@ -1,0 +1,46 @@
+<!-- Comp 20
+    Trevor Masse
+    Date 11/5/2020
+    Homework 9 JSON Set List Part 4 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Part 4</title>
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./setlist.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="titlecard">The Set List 2: Electric Boogaloo</h1>
+    </header>
+    <main>
+        <form id="genrefilter">
+            <select name="generes" id="genres">
+                <option value="all">All</option>
+                <option value="Classical">Classical</option>
+                <option value="Electronic">Electronic</option>
+                <option value="Folk">Folk</option>
+                <option value="Funk">Funk</option>
+                <option value="Grunge">Grunge</option>
+                <option value="Indie">Indie</option>
+                <option value="Pop">Pop</option>
+                <option value="Punk">Punk</option>
+                <option value="R&B">R&B</option>
+                <option value="Rap">Rap</option>
+                <option value="Rock">Rock</option>
+            </select>
+            <input type="button" id="filterb" value="Filter" onclick="filter()">
+        </form>
+    </br>
+    <table id="songtable">
+        <tr id="headers">
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Genre(s)</th>
+            <th>Year</th>
+        </tr>
+    </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Comp 20
+    Trevor Masse
+    Date 10/17/2020
+    Extra Credit -->
+
+<html>
+    <head>
+        <title>Comp20 Extra Credit</title>
+        <style>
+            .container
+            {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 200px;
+            }
+            #one
+            {
+                background-color: #9999CC;
+            }
+            #two
+            {
+                background-color: #99cc99;
+            }
+            #three
+            {
+                background-color: #cc9999;
+            }
+            input
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="one">
+                <input type="text" id="one_b">
+            </div>
+            <div id="two">
+                <input type="button" id="arrowb" value="->" onclick="switchFun()">
+            </div>
+            <div id="three">
+                <input type="text" id="three_b">
+            </div>
+        </div>
+        <script language="JavaScript">
+
+            function switchFun()
+            {
+                var first = document.getElementById("one_b").value;
+                var second = document.getElementById("three_b").value;
+                var arrow_b = document.getElementById("arrowb").value;
+                document.getElementById("three_b").value = first;
+                document.getElementById("one_b").value = second;
+                if (arrow_b == "->") {
+                    document.getElementById("arrowb").value = "<-";
+                } else if (arrow_b == "<-") {
+                    document.getElementById("arrowb").value = "->";
+                }
+            }
+        </script>
+
+    </body>
+</html>

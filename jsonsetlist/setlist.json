@@ -1,0 +1,212 @@
+[
+    {
+        "title":"Wonderful World",
+        "artist":"Sam Cooke",
+        "genre":["R&B"],
+        "year":"1960"
+    },
+
+    {
+        "title":"Where Did Our Love Go",
+        "artist":"The Supremes",
+        "genre":["R&B", "Pop"],
+        "year":"1964"
+    },
+
+    {
+        "title":"A Day in the Life",
+        "artist":"The Beatles",
+        "genre":["Rock", "Pop"],
+        "year":"1967"
+    },
+
+    {
+        "title":"Heroin",
+        "artist":"The Velvet Underground",
+        "genre":["Rock"],
+        "year":"1967"
+    },
+
+    {
+        "title":"Everyday People",
+        "artist":"Sly & The Family Stone",
+        "genre":["R&B", "Funk"],
+        "year":"1969"
+    },
+
+    {
+        "title":"Maggie May",
+        "artist":"Rod Stewart",
+        "genre":["Rock"],
+        "year":"1971"
+    },
+
+    {
+        "title":"Superstition",
+        "artist":"Stevie Wonder",
+        "genre":["R&B"],
+        "year":"1972"
+    },
+
+    {
+        "title":"Time",
+        "artist":"Pink Floyd",
+        "genre":["Rock"],
+        "year":"1973"
+    },
+
+    {
+        "title":"Born to Run",
+        "artist":"Bruce Springsteen",
+        "genre":["Rock"],
+        "year":"1975"
+    },
+
+    {
+        "title":"London Calling",
+        "artist":"The Clash",
+        "genre":["Rock", "Punk"],
+        "year":"1979"
+    },
+
+    {
+        "title":"Fratres",
+        "artist":"Arvo Part",
+        "genre":["Classical"],
+        "year":"1984"
+    },
+
+    {
+        "title":"Running Up That Hill",
+        "artist":"Kate Bush",
+        "genre":["Pop"],
+        "year":"1985"
+    },
+
+    {
+        "title":"Sweet Child o' Mine",
+        "artist":"Guns N' Roses",
+        "genre":["Rock"],
+        "year":"1987"
+    },
+
+    {
+        "title":"Straight Outta Compton",
+        "artist":"N.W.A.",
+        "genre":["Rap"],
+        "year":"1988"
+    },
+
+    {
+        "title":"Like a Prayer",
+        "artist":"Madonna",
+        "genre":["Pop"],
+        "year":"1989"
+    },
+
+    {
+        "title":"Smells Like Teen Spirit",
+        "artist":"Nirvana",
+        "genre":["Rock", "Grunge"],
+        "year":"1991"
+    },
+
+    {
+        "title":"Waterfalls",
+        "artist":"TLC",
+        "genre":["R&B", "Pop"],
+        "year":"1994"
+    },
+
+    {
+        "title":"The State I'm In",
+        "artist":"Belle & Sebastian",
+        "genre":["Pop"],
+        "year":"1996"
+    },
+
+    {
+        "title":"Oh Comely",
+        "artist":"Neutral Milk Hotel",
+        "genre":["Rock", "Indie"],
+        "year":"1998"
+    },
+
+    {
+        "title":"I See a Darkness",
+        "artist":"Bonnie Prince Billy",
+        "genre":["Folk", "Indie"],
+        "year":"1999"
+    },
+
+    {
+        "title":"Viorar vel til loftarasa",
+        "artist":"Sigur Ros",
+        "genre":["Rock"],
+        "year":"2000"
+    },
+
+    {
+        "title":"Fell In Love With a Girl",
+        "artist":"The White Stripes",
+        "genre":["Rock"],
+        "year":"2001"
+    },
+
+    {
+        "title":"Heartbeats",
+        "artist":"The Knife",
+        "genre":["Electronic"],
+        "year":"2002"
+    },
+
+    {
+        "title":"The Bleeding Heart Show",
+        "artist":"The New Pornographers",
+        "genre":["Rock"],
+        "year":"2005"
+    },
+
+    {
+        "title":"Bros",
+        "artist":"Panda Bear",
+        "genre":["Electronic"],
+        "year":"2007"
+    },
+
+    {
+        "title":"Monster",
+        "artist":"Kanye West",
+        "genre":["Rap"],
+        "year":"2010"
+    },
+
+    {
+        "title":"Countdown",
+        "artist":"Beyonce",
+        "genre":["R&B", "Pop"],
+        "year":"2011"
+    },
+
+    {
+        "title":"Heart",
+        "artist":"Darkside",
+        "genre":["Electronic"],
+        "year":"2013"
+    },
+
+    {
+        "title":"Screen Shot",
+        "artist":"Swans",
+        "genre":["Rock"],
+        "year":"2014"
+    },
+
+    {
+        "title":"bad guy",
+        "artist":"Billie Eilish",
+        "genre":["Pop"],
+        "year":"2019"
+    }
+
+]
