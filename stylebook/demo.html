@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Title & Meta-->
+    <title>Hondana Demo Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=News+Cycle&display=swap" rel="stylesheet">
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+
+    <!--JQuery & Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- logo graphic #DB7018 -->
+
+<!--navbar-->
+<nav class="navbar navbar-expand-sm navbar-light">
+  <a class="navbar-brand" href="#"><img src="./HondanaIcon.png" height="40"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          LOGIN/SIGN-UP
+        </a>
+        <div class="dropdown-menu">
+          <form class="px-4 py-3">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail1">email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword1">password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              <label class="form-check-label" for="dropdownCheck">
+                remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">sign in</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">create an account</a>
+          <a class="dropdown-item" href="#">forgot password?</a>
+        </div>
+
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          LISTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">fiction</a>
+          <a class="dropdown-item" href="#">non-fiction</a>
+          <a class="dropdown-item" href="#">something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--masthead-->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">HONDANA</h1>
+        <p class="lead">A book and podcast tracking app</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Info Carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+        <h1>Hondana lets you view the most popular books in a variety of genres</h1>
+    </div>
+    <div class="carousel-item">
+        <h1>View a book to find related podcasts</h1>
+    </div>
+    <div class="carousel-item">
+        <h1>Create an account to make your own lists</h1>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- Footer -->
+<footer class="bg-white">
+  <div class="container py-3">
+    <div class="row py-3">
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <img src="./HondanaLogo.png" alt="" width="220" class="mb-3">
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <h6 class="text-uppercase font-weight-bold mb-4">Lists</h6>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a href="#" class="text-muted">Fiction</a></li>
+          <li class="mb-2"><a href="#" class="text-muted">Non-Fiction</a></li>
+          <li class="mb-2"><a href="#" class="text-muted">Other</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+          <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+          <li class="mb-2"><a href="#" class="text-muted">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="bottomid" class="py-2">
+    <div class="container text-center">
+      <p class="mb-0 py-2">2020 HONDANA</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

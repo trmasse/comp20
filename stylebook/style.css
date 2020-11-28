@@ -1,0 +1,73 @@
+h1 {
+    font-family: 'Cormorant';
+}
+
+p {
+    font-family: 'News Cycle';
+}
+
+a {
+    font-family: 'Cormorant';
+    font-size: 20px;
+}
+
+a:hover {
+    color: #DB7018 !important;
+}
+
+div.dropdown-menu {
+    font-family: 'Cormorant';
+    font-size: 20px;
+}
+
+button {
+    border: 1px solid #DB7018 !important;
+    color: #DB7018 !important;
+}
+
+button:hover {
+    color: #FFFFFF !important;
+    background-color: #DB7018 !important;
+}
+
+#exampleDropdownFormEmail1 {
+    width: 200px;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('./mastheadphotocropped.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.masthead h1 {
+    font-size: 135px;
+}
+
+.masthead p {
+    font-family: 'News Cycle';
+    font-size: 28px;
+}
+
+.carousel-item {
+    background-color: #DB7018;
+    height: 500px;
+    color: #FFFFFF;
+}
+
+#bottomid {
+    background-color: #DB7018;
+    color: #FFFFFF !important;
+}
+
+.carousel-item h1 {
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
