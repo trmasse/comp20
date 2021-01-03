@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./style.css"?>
+
+<Songs>
+    <Heading>Trevor's Amazing Set List</Heading>
+    <Song>
+        <Title>A Change Is Gonna Come</Title>
+        <Artist>Sam Cooke</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>1964</Year>
+    </Song>
+
+    <Song>
+        <Title>I Wanna Hold Your Hand</Title>
+        <Artist>The Beatles</Artist>
+        <Genre>Rock</Genre>
+        <Year>1964</Year>
+    </Song>
+
+    <Song>
+        <Title>God Only Knows</Title>
+        <Artist>The Beach Boys</Artist>
+        <Genre>Rock</Genre>
+        <Year>1966</Year>
+    </Song>
+
+    <Song>
+        <Title>America</Title>
+        <Artist>Simon &#38; Garfunkel</Artist>
+        <Genre>Folk</Genre>
+        <Year>1968</Year>
+    </Song>
+
+    <Song>
+        <Title>Think</Title>
+        <Artist>Aretha Franklin</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>1968</Year>
+    </Song>
+
+    <Song>
+        <Title>Southern Man</Title>
+        <Artist>Neil Young</Artist>
+        <Genre>Rock</Genre>
+        <Year>1970</Year>
+    </Song>
+
+    <Song>
+        <Title>What's Going On</Title>
+        <Artist>Marvin Gaye</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>1971</Year>
+    </Song>
+
+    <Song>
+        <Title>Let's Stay Together</Title>
+        <Artist>Al Green</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>1972</Year>
+    </Song>
+
+    <Song>
+        <Title>The Chain</Title>
+        <Artist>Fleetwood Mac</Artist>
+        <Genre>Rock</Genre>
+        <Year>1977</Year>
+    </Song>
+
+    <Song>
+        <Title>Heroes</Title>
+        <Artist>David Bowie</Artist>
+        <Genre>Pop</Genre>
+        <Year>1977</Year>
+    </Song>
+
+    <Song>
+        <Title>Once In A Lifetime</Title>
+        <Artist>Talking Heads</Artist>
+        <Genre>Rock</Genre>
+        <Year>1980</Year>
+    </Song>
+
+    <Song>
+        <Title>Hungry Like The Wolf</Title>
+        <Artist>Duran Duran</Artist>
+        <Genre>Pop</Genre>
+        <Year>1982</Year>
+    </Song>
+
+    <Song>
+        <Title>There Is A Light That Never Goes Out</Title>
+        <Artist>The Smiths</Artist>
+        <Genre>Rock</Genre>
+        <Year>1986</Year>
+    </Song>
+
+    <Song>
+        <Title>Where The Streets Have No Name</Title>
+        <Artist>U2</Artist>
+        <Genre>Rock</Genre>
+        <Year>1987</Year>
+    </Song>
+
+    <Song>
+        <Title>Fast Car</Title>
+        <Artist>Tracy Chapman</Artist>
+        <Genre>Pop</Genre>
+        <Year>1988</Year>
+    </Song>
+
+    <Song>
+        <Title>Fight The Power</Title>
+        <Artist>Public Enemy</Artist>
+        <Genre>Rap</Genre>
+        <Year>1990</Year>
+    </Song>
+
+    <Song>
+        <Title>Only Shallow</Title>
+        <Artist>My Bloody Valentine</Artist>
+        <Genre>Rock</Genre>
+        <Year>1991</Year>
+    </Song>
+
+    <Song>
+        <Title>1979</Title>
+        <Artist>The Smashing Pumpkins</Artist>
+        <Genre>Rock</Genre>
+        <Year>1995</Year>
+    </Song>
+
+    <Song>
+        <Title>Doo Wop (That Thing)</Title>
+        <Artist>Lauryn Hill</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>1998</Year>
+    </Song>
+
+    <Song>
+        <Title>Are You That Somebody?</Title>
+        <Artist>Aaliyah</Artist>
+        <Genre>Pop</Genre>
+        <Year>1998</Year>
+    </Song>
+
+    <Song>
+        <Title>Untitled (How Does It Feel)</Title>
+        <Artist>D'Angelo</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>2000</Year>
+    </Song>
+
+    <Song>
+        <Title>Harder Better Faster Stronger</Title>
+        <Artist>Daft Punk</Artist>
+        <Genre>Pop</Genre>
+        <Year>2001</Year>
+    </Song>
+
+    <Song>
+        <Title>Maps</Title>
+        <Artist>Yeah Yeah Yeahs</Artist>
+        <Genre>Rock</Genre>
+        <Year>2003</Year>
+    </Song>
+
+    <Song>
+        <Title>Paper Planes</Title>
+        <Artist>M.I.A.</Artist>
+        <Genre>Rap</Genre>
+        <Year>2007</Year>
+    </Song>
+
+    <Song>
+        <Title>French Navy</Title>
+        <Artist>Camera Obscura</Artist>
+        <Genre>Pop</Genre>
+        <Year>2009</Year>
+    </Song>
+
+    <Song>
+        <Title>I Only Know (What I Know Now)</Title>
+        <Artist>James Blake</Artist>
+        <Genre>Electronic</Genre>
+        <Year>2010</Year>
+    </Song>
+
+    <Song>
+        <Title>Out Of Air</Title>
+        <Artist>Broken Twin</Artist>
+        <Genre>Pop</Genre>
+        <Year>2014</Year>
+    </Song>
+
+    <Song>
+        <Title>Alright</Title>
+        <Artist>Kendrick Lamar</Artist>
+        <Genre>Rap</Genre>
+        <Year>2015</Year>
+    </Song>
+
+    <Song>
+        <Title>Formation</Title>
+        <Artist>Beyonce</Artist>
+        <Genre>R&#38;B</Genre>
+        <Year>2016</Year>
+    </Song>
+
+    <Song>
+        <Title>Bodak Yellow</Title>
+        <Artist>Cardi B</Artist>
+        <Genre>Rap</Genre>
+        <Year>2018</Year>
+    </Song>
+</Songs>
