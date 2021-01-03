@@ -1,0 +1,89 @@
+/*Comp 20
+  Trevor Masse
+  9/26/2020
+  Assignment 3
+  Website CSS stylesheet */
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.navi {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a.product {
+    color: #3A3A38;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px 10px 10px;
+    max-width: 750px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+}
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    max-width: 1000px;
+}
+
+p.light {
+    color: #FFFFFF;
+}
+
+table {
+    background-color:rgba(255, 255, 255, 0.6);
+    overflow: scroll;
+}
+
+td {
+    font-size: 28px;
+    color: #3A3A38;
+    font-weight: bold;
+    text-align: center;
+}
