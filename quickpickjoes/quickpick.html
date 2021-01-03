@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Comp 20
+    Trevor Masse
+    10//2020
+    Homework 5
+    Quick Pick -->
+
+<html>
+    <head>
+        <title>Quick Pick</title>
+        <style type="text/css">
+            body {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Lottery Quick Pick</h1>
+        </header>
+        <main>
+            <script language="JavaScript">
+                var lottery_nums = new Array(5);
+                for (var i = 0; i < 5; i++) {
+                    lottery_nums[i] = 1 + Math.floor(Math.random() * 48);
+                }
+                var lucky_ball = 1 + Math.floor(Math.random() * 18);
+
+                for (var i = 0; i < 4; i++) {
+                    var min = lottery_nums[i];
+                    for (var j = (i + 1); j <= 4; j++) {
+                        if (lottery_nums[j] < min) {
+                            lottery_nums[i] = lottery_nums[j];
+                            lottery_nums[j] = min;
+                            min = lottery_nums[i];
+                        }
+                    }
+                    lottery_nums[i] = min;
+                }
+
+                document.write("Your Random Numbers: ");
+                for (var i = 0; i < 5; i++) {
+                    document.write(lottery_nums[i] + " ");
+                    if (lottery_nums[i] < 10) {
+                        document.write("\xa0\xa0");
+                    }
+                }
+                document.write(lucky_ball + "<br>");
+
+                var winners = prompt("Enter the winning numbers, separated by spaces (e.g. \"5 7 22 19 10\")");
+                var temp_win = winners.split(" ");
+                var lucky_win = prompt("Enter the winning lucky ball: ");
+                var wina = parseInt(temp_win[0]);
+                var winb = parseInt(temp_win[1]);
+                var winc = parseInt(temp_win[2]);
+                var wind = parseInt(temp_win[3]);
+                var wine = parseInt(temp_win[4]);
+                var win_arr = [wina, winb, winc, wind, wine];
+
+                for (var i = 0; i < 4; i++) {
+                    var min = win_arr[i];
+                    for (var j = (i + 1); j <= 4; j++) {
+                        if (win_arr[j] < min) {
+                            win_arr[i] = win_arr[j];
+                            win_arr[j] = min;
+                            min = win_arr[i];
+                        }
+                    }
+                    win_arr[i] = min;
+                }
+
+                document.write("The Winning Numbers: \xa0");
+                for (var i = 0; i < 5; i++) {
+                    document.write(win_arr[i] + " ");
+                    if (win_arr[i] < 10) {
+                        document.write("\xa0\xa0");
+                    }
+                }
+                document.write(lucky_win + "<br>");
+
+                var matches = 0;
+                for (var i = 0; i < 5; i++) {
+                    for (var j = 0; j < 5; j++) {
+                        if (lottery_nums[i] == win_arr[j]) {
+                            matches++;
+                            break;
+                        }
+                    }
+                }
+                var lucky_match = (lucky_ball == lucky_win);
+
+                document.write("Number of Matches: " + matches + "<br>");
+                document.write("Lucky Ball Match: ");
+                if (lucky_match) {
+                    document.write("Yes<br>");
+                } else {
+                    document.write("No<br>");
+                }
+                var winnings;
+                if (matches == 5 && lucky_match) {
+                    winnings = "$7,000 a WEEK for LIFE";
+                } else if (matches == 5 && !lucky_match) {
+                    winnings = "$25,000 a YEAR for LIFE";
+                } else if (matches == 4 && lucky_match) {
+                    winnings = "$5,000";
+                } else if (matches == 4 && !lucky_match) {
+                    winnings = "$200";
+                } else if (matches == 3 && lucky_match) {
+                    winnings = "$150";
+                } else if (matches == 3 && !lucky_match) {
+                    winnings = "$20";
+                } else if (matches == 2 && lucky_match) {
+                    winnings = "$25";
+                } else if (matches == 2 && !lucky_match) {
+                    winnings = "$3";
+                } else if (matches == 1 && lucky_match) {
+                    winnings = "$6";
+                } else if (matches == 0 && lucky_match) {
+                    winnings = "$4";
+                } else {
+                    winnings = "$0";
+                }
+                document.write("Your winnings are " + winnings + "<br>");
+            </script>
+        </main>
+
+    </body>
+
+</html>

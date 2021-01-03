@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Comp 20
+    Trevor Masse
+    10//2020
+    Homework 5
+    Joe's Hotdogs -->
+
+<html>
+    <head>
+        <title>Joe's Hotdog Stand</title>
+        <style type="text/css">
+            body {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Joe's Hotdog Stand</h1>
+        </header>
+        <main>
+            <script language="JavaScript">
+                alert("Hello! Welcome to Joe's!");
+                var hotdogs = prompt("How many hotdogs do you want? (enter a number)");
+                var fries = prompt("How many fries do you want? (enter a number)");
+                var drinks = prompt("How many sodas do you want? (enter a number)");
+                var subtotal = (hotdogs * 3.25) + (fries * 2) + (drinks * 1.5);
+                if (subtotal >= 20.0) {
+                    var discount = subtotal * .1;
+                } else {
+                    discount = 0;
+                }
+                var tax = (subtotal - discount) * .0625;
+                document.write("Items ordered: <br>");
+                document.write("Hotdogs: " + hotdogs + "<br>");
+                document.write("Fries: " + fries + "<br>");
+                document.write("Sodas: " + drinks + "<br>");
+                document.write("Subtotal: $" + subtotal.toFixed(2) + "<br>");
+                document.write("Discount: $" + discount.toFixed(2) + "<br>");
+                document.write("Tax: $" + tax.toFixed(2) + "<br>");
+                var total = subtotal - discount + tax;
+                document.write("Total: $" + total.toFixed(2) + "<br>");
+            </script>
+        </main>
+    </body>
+
+</html>
